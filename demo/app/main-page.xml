@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page">
+  <StackLayout class="p-20">
+    <DatePicker id="date" loaded="onPickerLoaded" dateChange="onDateChanged" verticalAlignment="center">
+    </DatePicker>
+    <Button text="Valider" tap="see"></Button>
+    <Label text="{{ dayWeekText }}" id="dayweektext" class="t-20 text-center c-black" textWrap="true"/>
+    <!-- <Label text="{{ dayWeekNumber }}" class="t-20 text-center c-black" textWrap="true"/> -->
+    <Label text="{{ dayMonthNumber }}" class="t-20 text-center c-black" textWrap="true"/>
+    <Label text="{{ monthText }}" class="t-20 text-center c-black" textWrap="true"/>
+    <!-- <Label text="{{ monthNumber }}" class="t-20 text-center c-black" textWrap="true"/> -->
+    <Label text="{{ yearNumber }}" class="t-20 text-center c-black" textWrap="true"/>
+  </StackLayout>
+</Page>
