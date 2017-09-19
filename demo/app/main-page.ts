@@ -12,7 +12,7 @@ let page;
 export function pageLoaded(args: observable.EventData) {
     page = <pages.Page>args.object;
     page.bindingContext = new HelloWorldModel(new Date());
-    // Get the event sender
+    // Get the event  sender
 }
 
 export function onPickerLoaded(args) {
