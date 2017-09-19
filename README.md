@@ -10,6 +10,9 @@ This plugin is inspired by https://github.com/arabiaweather/hijri-date
 # Nativescript-hijri
 
 Hijri plugin allow you to convert gregorian date to islamic hijri date. 
+<p align="center">
+  <img src="https://github.com/rkhayyat/nativescript-hijri/blob/master/screenshot/nativescript-hijri.gif" width="300"/>
+</p>
 
 ## Installation
 
