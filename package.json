@@ -1,6 +1,6 @@
 {
   "name": "nativescript-hijri",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple plugin for NativeScript to convert from gregorian to hijri date",
   "main": "hijri",
   "typings": "index.d.ts",
